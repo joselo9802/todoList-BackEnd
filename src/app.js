@@ -13,7 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://todo-list-app-gt3j.onrender.com",
+      "https://todolistapp-frontend.onrender.com",
     ],
     credentials: true,
   })
