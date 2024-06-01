@@ -11,7 +11,13 @@ app.set("port", process.env.PORT || 3000);
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+      "https://todo-list-app-mz3j.onrender.com",
+    ],
+    defaults: {
+      origin: "https://todo-list-app-mz3j.onrender.com",
+    },
     credentials: true,
   })
 );
