@@ -13,11 +13,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://todo-list-app-mz3j.onrender.com",
+      "https://todo-list-pp73.onrender.com",
     ],
-    defaults: {
-      origin: "https://todo-list-app-mz3j.onrender.com",
-    },
     credentials: true,
   })
 );
