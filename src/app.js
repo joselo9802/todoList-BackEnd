@@ -13,7 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://todolistapp-frontend.onrender.com",
+      "https://todo-list-demo10.netlify.app/",
     ],
     credentials: true,
   })
